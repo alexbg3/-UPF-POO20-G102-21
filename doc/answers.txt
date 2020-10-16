@@ -21,3 +21,6 @@ Q8. /A/ After creating the new branch 'documents' we have 2 branches main and do
 in main branch since it has * infront of it. :* main '/n' documents
 Q9. /A/ In branch *main we have the out massage, while in the *documents we have the new massage
 >>>>>>> documents
+Q10. We had a conflicts on the first merge, however we put every andswer on one lane and removed the strange simbols as instructed
+in the practice instructions and afterwards the file merged.
+Q11. After we deleted the branch "documents" we are left with once branch named "main".
