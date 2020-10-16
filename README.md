@@ -1,2 +1,1 @@
-Hello world, how are you ?
-Something is different
+We are in the documents branch!
