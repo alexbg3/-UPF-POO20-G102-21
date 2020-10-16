@@ -9,4 +9,4 @@ Status:
 Changes not staged for commit:  (use "git add <file>..." to update what will be committed) (use "git restore <file>..." to discard changes in working directory)        modified:   README.md
 Q4. /A/Good massage would be "updating" or "commiting changes". The status after commiting is : On branch main
 Your branch is ahead of 'origin/main' by 1 commit. (use "git push" to publish your local commits) nothing to commit, working tree clean.
- Q5. There are 5 commits made.  The first seven digits/ numers of the first readme.md commit are: "bb41c8d"
+Q5. There are 5 commits made.  The first seven digits/ numers of the first readme.md commit are: "bb41c8d"
