@@ -1,0 +1,26 @@
+Q6. 
+commit a0cc468d7f49ac0f183e393a142bf0e53c31a34b (HEAD -> main)
+Author: alexbg3 <72511008+alexbg3@users.noreply.github.com>
+Date:   Fri Oct 16 11:49:54 2020 +0300
+
+    update
+
+diff --git a/README.md b/README.md
+index 4f99a45..b08c55a 100644
+--- a/README.md
++++ b/README.md
+@@ -1,2 +1,2 @@
+
+-Hello world
++Hello world, how are you ?
+/A/Basically, using the command git show HEAD it showed me the commit number, author
+of the commit, and afterwards the chages made from Hello world to hello world, how are you?
+
+Q7. /A/ I made a change to the file readme.md and added the changes, when i ran the git reset HEAD README.md
+it made the file from modified ( after the git add functuon) to unmodified and the change i made were removed,
+so basically i went back to the file as if i havnt made the last changes and as if I havnt added it.
+Q8. /A/ After creating the new branch 'documents' we have 2 branches main and documents. We are currently
+in main branch since it has * infront of it. :
+* main
+  documents
+Q9. /A/ In branch *main we have the out massage, while in the *documents we have the new massage
