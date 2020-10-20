@@ -1,0 +1,14 @@
+class Instruction max 1pt
+class Program max 9pt
+
+class Instruction : 1pt
+
+class Program: 
+
+-> Attributes(30%) : 0.9
+-> Constructor(20%) : 1.8
+-> Methods (40%) : 2.79
+-> Visibility (10%) : 0.9
+
+
+Total Grade : 7.4
