@@ -24,6 +24,12 @@ public class Item {
         this.size = s; 
         this.cost = c;
     }
+    public double getPrice(){
+        return 0;
+    }
+    public double calculateProfit(){
+        return 0;
+    }
     public String getName(){
         return this.name;
     }
@@ -67,3 +73,4 @@ public class Item {
     
     
 }
+

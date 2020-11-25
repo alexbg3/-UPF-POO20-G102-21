@@ -8,17 +8,13 @@
  *
  * @author aristrasser
  */
-public class UnitItem {
+public class UnitItem extends Item{
     double unitPrice;
     int quantity;
     int quantityRemaining;
-    Item item;
     
-    public UnitItem(String n, String t,double s, double c, double uprice, int q){
-       item.name = n;
-       item.type = t;
-       item.size = s;
-       item.cost = c;
+    public UnitItem(String n, String t, double s, double c, double uprice, int q){
+       super(n,t,s,c);
        this.unitPrice = uprice;
        this.quantity = q;
      
@@ -30,7 +26,7 @@ public class UnitItem {
     }
     
     public double calculateProfit(){
-        double profit = getPrice() - item.cost;
+        double profit = getPrice() - this.cost;
         return profit;
     }
     

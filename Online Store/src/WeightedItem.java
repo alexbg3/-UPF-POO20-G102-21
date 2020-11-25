@@ -8,17 +8,14 @@
  *
  * @author aristrasser
  */
-public class WeightedItem {
+public class WeightedItem extends Item{
     double PricePerWeight;
     double weight;
     double weightRemaining;
-    Item item;
+    //Item item;
     
     public WeightedItem(String n, String t,double s, double c, double wprice, double w){
-       item.name = n;
-       item.type = t;
-       item.size = s;
-       item.cost = c;
+       super(n,t,s,c);
        this.PricePerWeight = wprice;
        this.weight = w;
     
@@ -30,7 +27,7 @@ public class WeightedItem {
     }
     
     public double calculateProfit(){
-        double profit = getPrice() - item.cost;
+        double profit = getPrice() - this.cost;
         return profit;
     }
     

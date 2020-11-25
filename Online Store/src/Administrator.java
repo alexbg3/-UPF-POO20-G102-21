@@ -11,28 +11,28 @@ import java.util.LinkedList;
  *
  * @author aristrasser
  */
-public class Administrator {
-    User admin;
+public class Administrator extends User {
+    
     //LinkedList user = MainOnlineStore.users;
-    LinkedList<User> users;
+    LinkedList<User> listUser;
     
     
-    public Administrator(String n, String id, String p){
-        admin.name = n;
-        admin.identifier = id;
-        admin.password = p;
+    public Administrator(String n, String id, String p, LinkedList<User> users){
+        super(n,id,p);
+        listUser = users;
+       
         
     }
     
     public void expel(User u){
-        users.remove(u);
+        listUser.remove(u);
     }
     
     public boolean manageAuction(AuctionItem a, String date){
         return (a.deadline.equals(date));
     }
     
-    public void printStock(LinkedList<AuctionItem> items){
+    public void printStock(LinkedList<Item> items){
         System.out.println(items);
     }
 }

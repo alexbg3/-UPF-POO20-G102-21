@@ -8,13 +8,11 @@
  *
  * @author aristrasser
  */
-public class Box {
+public class Box extends Package {
     int depth;
-    Package pack;
     
     public Box(int w,int h, int d){
-        pack.width = w;
-        pack.height = h;
+        super(w,h);
         this.depth = d;
     }
     
@@ -27,16 +25,16 @@ public class Box {
     }
     
     public boolean isSuitable(int size1,int size2,int size3){
-        if (size1 > pack.width){
-            if ((size2 > pack.height) && (size3 > this.depth) || (size3 > pack.height) && (size2 > this.depth)){
+        if (size1 > this.width){
+            if ((size2 > this.height) && (size3 > this.depth) || (size3 > this.height) && (size2 > this.depth)){
                 return true;
             }
-        }else if (size2 > pack.width){
-            if ((size1 > pack.height) && (size3 > this.depth) || (size3 > pack.height) && (size1 > this.depth)){
+        }else if (size2 > this.width){
+            if ((size1 > this.height) && (size3 > this.depth) || (size3 > this.height) && (size1 > this.depth)){
                 return true;
             }
-        }else if (size3 > pack.width){
-            if ((size2 > pack.height) && (size1 > this.depth) || (size1 > pack.height) && (size2 > this.depth)){
+        }else if (size3 > this.width){
+            if ((size2 > this.height) && (size1 > this.depth) || (size1 > this.height) && (size2 > this.depth)){
                 return true;
             }
         }

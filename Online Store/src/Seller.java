@@ -11,18 +11,17 @@ import java.util.LinkedList;
  *
  * @author aristrasser
  */
-public class Seller {
+public class Seller extends User {
     String accountNumber;
     LinkedList<Item> soldItems;
     LinkedList<Item> availableItems;
-    User seller;
     double deposit;
     
-    public Seller(String n, String id, String p,String a){
-        seller.name = n;
-        seller.identifier = id;
-        seller.password = p;
+    public Seller(String n, String id, String p,String a,LinkedList<Item> sold, LinkedList<Item> available){
+        super(n,id,p);
         this.accountNumber = a;
+        soldItems = sold;
+        availableItems = available;
     }
     
     public void sell(Item item){

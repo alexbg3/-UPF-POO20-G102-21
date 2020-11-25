@@ -11,21 +11,19 @@ import java.util.LinkedList;
  *
  * @author aristrasser
  */
-public class Buyer {
+public class Buyer extends User {
     String accountNumber;
     LinkedList<Item> boughtItems;
-    User buyer;
     double deposit;
     
-    public Buyer(String n, String id, String p, String a){
-        buyer.name = n;
-        buyer.identifier = id;
-        buyer.password = p;
+    public Buyer(String n, String id, String p, String a, LinkedList<Item> buy){
+        super(n,id,p);
+        boughtItems = buy;
         this.accountNumber = a;
     }
     
-    public void buy(Item item){
-        boughtItems.add(item);
+    public void buy(Item u){
+      boughtItems.add(u);
     }
     
     boolean pay(double price){

@@ -8,30 +8,28 @@
  *
  * @author aristrasser
  */
-public class AuctionItem {
+public class AuctionItem extends Item {
     double currentPrice;
     Buyer bidder;
     String deadline;
-    Item item;
+    static double fee = 5;
+    static double percentage = 1.05;
     
     public AuctionItem(String n, String t,double s, double c,double startingPrice,String d){
-       item.name = n;
-       item.type = t;
-       item.size = s;
-       item.cost = c;
+       super(n,t,s,c);
        this.currentPrice = startingPrice;
        this.deadline = d;
        
     }
     
     public double getPrice(){
-        double price = 5 + this.currentPrice * 1.05;
+        double price = fee + this.currentPrice * percentage;
         return price;
         
     }
     
     public double calculateProfit(){
-        double profit = getPrice() - item.cost;
+        double profit = getPrice() - this.cost;
         return profit;
     }
     

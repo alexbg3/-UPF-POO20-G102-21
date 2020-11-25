@@ -8,13 +8,12 @@
  *
  * @author aristrasser
  */
-public class Envelope {
+public class Envelope extends Package {
     String name;
-    Package pack;
     
     public Envelope(int w,int h, String n){
-        pack.width = w;
-        pack.height = h;
+        super(w,h);
+     
         this.name = n;
     }
     
@@ -27,7 +26,7 @@ public class Envelope {
     }
     
     public boolean isSuitable(int size1, int size2){
-        if (((size1>pack.width) && (size2>pack.height)) || ((size1>pack.height) && (size2>pack.width))){
+        if (((size1>this.width) && (size2>this.height)) || ((size1>this.height) && (size2>this.width))){
             return true;
         }
         else return false;
