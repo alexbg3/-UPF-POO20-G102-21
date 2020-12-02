@@ -1,0 +1,18 @@
+Grade for OOP Seminar 5. 
+ 
+ Max grade: 10pt 
+ 
+Total grade: 6.2
+
+All classes(1pt): 1.0
+
+Relations(3pt): 2.4
+
+Attributes(2pt): 1
+
+Methods(2pt): 1.6
+
+Cardinality(1pt): 0
+
+Extra( Syntax, Overall design coherent 1pt): 0.2
+
