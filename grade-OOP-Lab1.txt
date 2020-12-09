@@ -12,14 +12,12 @@
 
 *****
 
-Report: 0
-Classes: 0
-Attributes: 0
-Constructors: 0
-Methods: 0
-Scope: 0
+Report: 0,5
+Classes: 1
+Attributes: 1
+Constructors: 1
+Methods: 0,6
+Scope: 1
 Extra: 0
 
-By 28th of october, 16:30, there was no lab1 submitted on the repository. Please get in contact with Anders if you think there has been a mistake. 
-
-Total Grade : 0
+Total Grade : 8,3
