@@ -1,0 +1,25 @@
+- If the code doesn't compile the grade is greatly lowered down
+- If the program doesn't execute the grade is greatly lowered down
+- If I detect the code has been copied the groups involved will automatically fail to pass and will be reported.
+
+- Report: 10%
+- Classes: 20%
+- Attributes: 20%
+- Constructors: 10%
+- Methods: 30%
+- Scope (private/public): 10%
+- Extra point: 1 pt. 
+
+*****
+
+Report: 0
+Classes: 0
+Attributes: 0
+Constructors: 0
+Methods: 0
+Scope: 0
+Extra: 0
+
+By 28th of october, 16:30, there was no lab1 submitted on the repository. Please get in contact with Anders if you think there has been a mistake. 
+
+Total Grade : 0
